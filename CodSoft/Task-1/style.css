@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.screen{
+    min-height: 100vh;
+}
+
+.m-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Dancing Script', cursive;
+} 
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px; 
+}
+
+.font{
+    font-weight: 900;
+    align-items: center;
+    display: flex;
+    color: brown;
+}
+
+.font .image{
+    width: 85px;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding-left: 13px ;
+    padding-right: 13px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: -webkit-right;
+    float: right;
+}
+
+.A{
+    max-height: 100vh;
+    
+}
+
+.left h1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(241, 212, 182);
+    background-color: brown;
+    cursor: pointer;
+    
+}
+
+
+.btn2{
+    padding: 6px 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+    width: 131px;
+}
+
+.right .img{
+    width: 454px;
+    padding: 33px;
+   
+    justify-content : center;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.section2{
+    height: 432px;
+}
+
+.section2 h1{
+    font-size: 4 rem;
+    text-align: center;
+    margin: 32px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin: 20px 12px;
+    padding: 25px 6px;
+    min-width: 19vw;
+    border: 6px solid rgb(116, 26, 39);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+}
+
+.topleft{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.topright{
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+.a{
+    width: 125px;
+   
+}
+
+.b{
+    width: 140px;
+}
+
+.c{
+    width: 150px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
